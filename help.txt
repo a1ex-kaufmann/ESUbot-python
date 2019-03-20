@@ -1,0 +1,10 @@
+GET /exchange/trades
+GET /exchange/client_orders
+GET /exchange/order
+GET /exchange/commission
+GET /exchange/commissionCommonInfo
+POST /exchange/buylimit
+POST /exchange/selllimit
+POST /exchange/buymarket
+POST /exchange/sellmarket
+POST /exchange/cancellimit

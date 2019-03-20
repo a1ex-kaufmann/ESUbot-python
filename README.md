@@ -1,2 +1,19 @@
 # ESUbot-python
-Trading bot for trading on the exchange livecoin.net
+### Trading bot for trading on the exchange livecoin.net
+
+Run command:
+```
+python main.py
+```
+
+**mymath.py** - собственная математическая библиотека. Содержит решение СЛАУ итер. методом Зейделя и метод Наименьших Квадратов для аппроксимации
+
+**Analysis.py** - Класс торговой сессии. Отвечает за анализ текущей ситуаций. В полях хранит как выборку котировок, так и коэффициенты линий коридора поддержки, включая warning-зоны.
+
+**visualization.py** - блок визуализации при debug-режиме, использует matplotlib
+
+**Noise.xlsm** - Excel-файл для генерации шума для дальнейшей проверки алгоритма торговли
+
+**input.txt** - выходной файл Noise.xlsm
+
+**trading_process.txt** - log-файл процесса торговли
